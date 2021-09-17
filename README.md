@@ -2,6 +2,10 @@
 
 É necessário criar um registro de aplicativo no AzureAD para a aplicação cliente, com acesso a uma role exposta pelo registro de aplicativo do Wordpress.
 
+<p align="center">
+  <img width="460" src="./images/flow.png">
+</p>
+
 ## Wordpress
 
 1) Alterar as variaveis do cabeçalho do arquivo restrict.php;
@@ -13,8 +17,6 @@
 
 ## Cliente em C#
 Atualizar as configurações referentes ao AzureAD no appsettings.json
-
-
 
 ## Configurar o Lifetime dos access tokens
 
